@@ -1,4 +1,4 @@
-**1.安装SSR客户端 **
+**1.安装SSR客户端**
 
 yum -y install git 
 

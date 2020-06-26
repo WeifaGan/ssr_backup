@@ -120,19 +120,19 @@ curl www.google.com
 
 **5.SSR客户端状态管理 **
 
-**5.1启动 **
+**5.1启动**
 
 ```python
 ssr start 
 ```
 
-**5.2 停止 **
+**5.2 停止**
 
 ```python
 ssr stop 
 ```
 
-**5.3 重启 **
+**5.3 重启**
 
 ```python
 ssr restart 

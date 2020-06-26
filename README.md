@@ -1,11 +1,11 @@
 **1.安装SSR客户端**
-
-yum -y install git 
-
-git clone https://github.com/WeifaGan/ssr_backup.git
-
 ```python
-cd ssr_backup/ mv ssr /usr/local/bin chmod +x /usr/local/bin/ssr ssr install 
+yum -y install git 
+git clone https://github.com/WeifaGan/ssr_backup.git
+cd ssr_backup/ 
+mv ssr /usr/local/bin 
+chmod +x /usr/local/bin/ssr 
+ssr install 
 ```
 
 **2.配置SSR客户端**

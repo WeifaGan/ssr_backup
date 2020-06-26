@@ -67,13 +67,13 @@ cd ssr_backup/ mv ssr /usr/local/bin chmod +x /usr/local/bin/ssr ssr install
 
 Shadowsocks默认是用Socks5协议的，对于Terminal的get,wget等走http协议的地方是无能为力的，所以需要转换成http代理，加强通用性，这里使用的转换方法是基于Polipo的。 
 
-**3.1安装Polipo **
+**3.1安装Polipo**
 
 ```python
 sudo apt-get install polipo      
 ```
 
-**3.2 修改配置文件 **
+**3.2 修改配置文件**
 
 ```python
 sudo gedit /etc/polipo/config    
@@ -114,11 +114,11 @@ export http_proxy="http://127.0.0.1:8123/"
 
 curl www.google.com 
 
-**4.配置浏览器 修改全局网络。** 
+**4.配置浏览器 修改全局网络** 
 
 打开设置->网络->网络代理： 把网络设置为手动 所有代理和主机设置为：127.0.0.1，端口设置为：8123 
 
-**5.SSR客户端状态管理 **
+**5.SSR客户端状态管理**
 
 **5.1启动**
 

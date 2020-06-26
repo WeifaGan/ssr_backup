@@ -102,7 +102,7 @@ proxyAddress = "0.0.0.0"
 proxyPort = 8123
 ```
 
- **3.2 重启Polipo: **
+ **3.2 重启Polipo:**
 
 ```python
 /etc/init.d/polipo restart 
